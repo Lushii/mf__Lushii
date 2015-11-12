@@ -51,18 +51,80 @@ body{
 	min-width: 1200px;
 }
 
+/*HEADER*/
+.nav {
+	min-height: 67px;
+}
 /*PROMO*/
 
 /*background promo*/
 
 .promo {
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
-	min-width: 57px;
-	min-height: 23px;
+	background-position: center;
+	min-height: 645px;
 	overflow: auto;
-	background-image: url(..img/bg_promo.png);
+	background-image: url(../img/bg_promo.png);
 }
 
+/*ADVANTAGES
+*/
 
+.advantages {
+min-height: 189px;
+}
 
+/*BREAFLY*/
+.breafly {
+	min-height: 504px;
+}
+/* GALLERY*/
+.gallery {
+	min-height: 516px;
+}
+/*PROCESS
+*/
+.process {
+	min-height: 697px;
+}
+/*COUNTDOWN
+*/
+.countdown {
+	min-height: 104px;
+}
+/*PRICE
+*/
+.price {
+	min-height: 472px;
+}
+/*PAYMENT
+*/
+.payment {
+	min-height: 870px;
+}
+/*FAQ
+*/
+.faq {
+	
+}
+
+/*STATISTIC*/
+.statistic {
+min-height: 372px;	
+}
+
+/*TEAM*/
+.team {
+	min-height: 520px;
+}
+
+/*FEEDBACK*/
+.feedback {
+	min-height: 524px;
+}
+/*CONTACTS*/
+.contacts{
+min-height: 450px;
+}
+/*FOOTER*/
