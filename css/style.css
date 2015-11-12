@@ -47,10 +47,22 @@ box-sizing: border-box;
 } 
 
 
-
-
 body{
 	min-width: 1200px;
 }
+
+/*PROMO*/
+
+/*background promo*/
+
+.promo {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	min-width: 57px;
+	min-height: 23px;
+	overflow: auto;
+	background-image: url(..img/bg_promo.png);
+}
+
 
 
