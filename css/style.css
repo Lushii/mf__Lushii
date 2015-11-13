@@ -15,7 +15,8 @@ text-align: center;
 }
 ul li{display: inline-block;
 }
-.container{width: 1140px;margin-left: auto;
+.container{width: 1140px;
+	margin-left: auto;
 	margin-right: auto;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -51,10 +52,17 @@ body{
 	min-width: 1200px;
 }
 
+body{font-family: 'Roboto', sans-serif;}
+
+a{text-decoration: none;}
+
 /*HEADER*/
 .nav {
 	min-height: 67px;
 }
+/*#2c2c2c*/
+
+
 /*PROMO*/
 
 /*background promo*/
@@ -75,39 +83,46 @@ body{
 min-height: 189px;
 }
 
+.adv-item{width: 200px;margin-left: 10px;}
+.adv-item__pic{width: 25%;}
+.adv-item__text{width: 70%;}
+
+
+
 /*BREAFLY*/
 .breafly {
 	min-height: 504px;
 }
+
 /* GALLERY*/
 .gallery {
 	min-height: 516px;
 }
+
 /*PROCESS
 */
 .process {
 	min-height: 697px;
 }
+
 /*COUNTDOWN
 */
 .countdown {
 	min-height: 104px;
 }
+
 /*PRICE
 */
 .price {
 	min-height: 472px;
 }
+
 /*PAYMENT
 */
 .payment {
 	min-height: 870px;
 }
-/*FAQ
-*/
-.faq {
-	
-}
+
 
 /*STATISTIC*/
 .statistic {
@@ -123,8 +138,10 @@ min-height: 372px;
 .feedback {
 	min-height: 524px;
 }
+
 /*CONTACTS*/
 .contacts{
 min-height: 450px;
 }
+
 /*FOOTER*/
