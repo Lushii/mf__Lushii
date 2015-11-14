@@ -67,12 +67,20 @@ color: #fff;
 font-size: 16px;
 margin-top: 24px;
 margin-bottom: 25px;
+margin-left: 30px;
 }
 
-
+.main-navigation_item{
+	color: #fff;
+	margin-top: 19px;
+	margin-bottom: 14px;
+	margin-left: 20px;
+	padding: 5px;
+	border: solid 1px transparent;
+}
+.main-navigation_item:hover{border: solid 1px #fff;}
 
 /*PROMO*/
-
 /*background promo*/
 
 .promo {
@@ -82,6 +90,18 @@ margin-bottom: 25px;
 	min-height: 645px;
 	overflow: auto;
 	background-image: url(../img/bg_promo.png);
+}
+.promo-title{
+color: #fff;
+font-size: 52px;
+margin-top: 188px;
+margin-bottom: 192px;
+}
+.promo-btn{
+color: #fff;
+font-size: 14px;
+padding: 12px;
+border: 1px solid #fff;
 }
 
 /*ADVANTAGES
