@@ -59,8 +59,16 @@ a{text-decoration: none;}
 /*HEADER*/
 .nav {
 	min-height: 67px;
+	background-color: #2c2c2c;
+	 background-size: 100%; 
 }
-/*#2c2c2c*/
+.logo-title{
+color: #fff;
+font-size: 16px;
+margin-top: 24px;
+margin-bottom: 25px;
+}
+
 
 
 /*PROMO*/
@@ -83,15 +91,19 @@ a{text-decoration: none;}
 min-height: 189px;
 }
 
-.adv-item{width: 200px;margin-left: 10px;}
+/*.adv-item{width: 200px;margin-left: 10px;}
 .adv-item__pic{width: 25%;}
-.adv-item__text{width: 70%;}
+.adv-item__text{width: 70%;}*/
 
 
 
 /*BREAFLY*/
 .breafly {
 	min-height: 504px;
+}
+
+iframe.video {
+	width: 100%;
 }
 
 /* GALLERY*/
