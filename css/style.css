@@ -56,6 +56,45 @@ body{font-family: 'Roboto', sans-serif;}
 
 a{text-decoration: none;}
 
+
+/*pseudoelement*/
+/*blue-stripe*/
+.title:after{
+content"";
+	border-bottom: 4px solid #3e98d7;
+    width: 63px;
+	height: 8px;
+	vertical-align: middle;
+	margin-top: 10px;
+	background-size: 100%;
+	
+}
+.second-title:after{
+content"";
+	border-bottom: 4px solid #3e98d7;
+	width: 63px;
+    height: 8px;
+	vertical-align: middle;
+	margin-top: 10px;
+	background-size: 100%;
+	
+}
+
+/*titles*/
+
+*.title{
+color: #444444;
+font-size: 24px;
+margin-top: 102px;
+margin-bottom: 93px; 
+}
+*.second-title{
+color: #444444;
+font-size: 24px;
+
+margin-bottom: 74px;
+}
+
 /*HEADER*/
 .nav {
 	min-height: 67px;
@@ -105,18 +144,6 @@ border: 1px solid #fff;
 }
 
 
-*.title{
-color: #000;
-font-size: 24px;
-margin-top: 102px;
-margin-bottom: 93px; 
-}
-*.second-title{
-color: #000;
-font-size: 24px;
-
-margin-bottom: 74px;
-}
 
 /*ADVANTAGES
 */
@@ -124,11 +151,55 @@ margin-bottom: 74px;
 .advantages {
 min-height: 189px;
 }
+.adv-item__pic{
+margin-top: 79px;
+padding-right: 5px;
+}
+.adv-item__text{
+	color: #444444;
+	font-size: 
+margin-top: 92px;
+}
 
-/*.adv-item{width: 200px;margin-left: 10px;}
-.adv-item__pic{width: 25%;}
-.adv-item__text{width: 70%;}*/
+/*pseudoelements adventages*/
+/*.adv-item__text1:before{
+	content"";
+	width: ;
+	height: ;
+	vertical-align: middle;
+	margin-right: 10px;
+	background-size: 100%;
+	background-image: url(../img/like-hand.png);
+}
+.adv-item__text2:before{
+	content"";
+	width: ;
+	height: ;
+	vertical-align: middle;
+	margin-right: 10px;
+	background-size: 100%;
+	background-image: url(../img/glasses.png);
+}
+.adv-item__text3:before{
+	content"";
+	width: ;
+	height: ;
+	vertical-align: middle;
+	margin-right: 10px;
+	background-size: 100%;
+	background-image: url(../img/camera.png);
+}
+.adv-item__text4:before{
+	content"";
+	width: ;
+	height: ;
+	vertical-align: middle;
+	margin-right: 10px;
+	background-size: 100%;
+	background-image: url(../img/binoculares.png);
+}
 
+*/
 
 
 /*BREAFLY*/
@@ -138,6 +209,7 @@ min-height: 189px;
 }
 
 iframe.video {
+	height: 300px;
 	width: 748px;
 }
 
@@ -151,12 +223,31 @@ iframe.video {
 .process {
 	min-height: 697px;
 }
+.process {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 645px;
+	overflow: auto;
+	background-image: url(../img/bg_mountains.png)
+}
+
+/*pseudoelements*/
+/*balloons*/
+
+
+
+
+
+
+
 
 /*COUNTDOWN
 */
 .countdown {
 	min-height: 104px;
 }
+
 
 /*PRICE
 */
@@ -170,10 +261,29 @@ iframe.video {
 	min-height: 870px;
 }
 
+/*pseudoelements payment*/
+.forth-title:before{
+content"";
+	width: ;
+	height: ;
+	vertical-align: middle;
+	margin-right: 10px;
+	background-size: 100%;
+	background-image: url(../img/otvet.png)	
+}
+
 
 /*STATISTIC*/
 .statistic {
 min-height: 372px;	
+}
+.statistic{
+background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 645px;
+	overflow: auto;
+	background-image: url(../img/bg_statistic.png)
 }
 
 /*TEAM*/
@@ -189,6 +299,14 @@ min-height: 372px;
 /*CONTACTS*/
 .contacts{
 min-height: 450px;
+}
+.contacts{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 645px;
+	overflow: auto;
+	background-image: url(../img/bg_contacts.png)
 }
 
 /*FOOTER*/
