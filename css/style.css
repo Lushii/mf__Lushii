@@ -86,7 +86,8 @@ content"";
 color: #444444;
 font-size: 24px;
 margin-top: 102px;
-margin-bottom: 93px; 
+
+margin-bottom: 76px; 
 }
 *.second-title{
 color: #444444;
@@ -157,7 +158,8 @@ padding-right: 5px;
 }
 .adv-item__text{
 	color: #444444;
-	font-size: 
+	font-size: 16px;
+	font-weight: bold;
 margin-top: 92px;
 }
 
