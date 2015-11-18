@@ -230,6 +230,7 @@ display: inline;
 color: #444;
 font-size: 16px;	
 }
+
 iframe.video {
 	height: 300px;
 	width: 748px;
@@ -308,8 +309,13 @@ font-size: 16px;
 	min-height: 484px;
 }
 .third-title {
+color: #444;
+font-size: 24px;
+margin-top: 20px;
+margin-bottom: 20px;
 
 }
+
 
 .forth-title {
 color: #444;
@@ -359,6 +365,19 @@ background-size: cover;
 .title-team{
 	margin-top: 90px;
 }
+.team-item_title{
+color: #444;
+font-size: 19px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.team-item_text{
+color: #444;
+font-size: 18px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
 
 /*FEEDBACK*/
 .feedback {
@@ -371,11 +390,14 @@ background-size: cover;
 .feedback-item_img{
 }
 .feedback-item_title{
-font-size: 18px;
+	color: #444;
+font-size: 19px;
+font-weight: bold;
 margin-top: 26px;
 margin-bottom: 24px;
 }
 .feedback-item_text{
+	color: #444;
 	min-height: 118px;
 	font-size: 15px;
 	font-style: normal;
@@ -385,7 +407,7 @@ margin-bottom: 24px;
 
 /*CONTACTS*/
 .contacts{
-min-height: 518px;
+min-height: 400px;
 }
 .contacts{
 	background-size: cover;
