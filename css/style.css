@@ -60,24 +60,38 @@ a{text-decoration: none;}
 /*pseudoelement*/
 /*blue-stripe*/
 .title:after{
-content"";
-	border-bottom: 4px solid #3e98d7;
-    width: 63px;
-	height: 8px;
-	vertical-align: middle;
-	margin-top: 10px;
-	background-size: 100%;
+content:"";
+  width: 61px;
+  height: 5px;
+  background-color: #3e98d7;
+  display: block;
+  position: absolute;
+  margin-top: 10px;
+  left: 48%;
 	
 }
 .second-title:after{
-content"";
-	border-bottom: 4px solid #3e98d7;
-	width: 63px;
-    height: 8px;
-	vertical-align: middle;
-	margin-top: 10px;
-	background-size: 100%;
+content:"";
+  width: 61px;
+  height: 5px;
+  background-color: #3e98d7;
+  display: block;
+  position: absolute;
+  margin-top: 10px;
+  left: 8%;
 	
+}
+
+.second-title_two:after{
+	content:"";
+  width: 61px;
+  height: 5px;
+  background-color: #3e98d7;
+  display: block;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 4px;
+  left: 51%;
 }
 
 /*titles*/
@@ -255,7 +269,18 @@ iframe.video {
 	min-height: 645px;
 	overflow: auto;
 	background-image: url(../img/bg_mountains.png)
+
 }
+/*fly-line*/
+/*.process {
+background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 142px;
+	overflow: auto;
+	background-image: url(../img/high-line.png)
+
+}*/
 
 /*pseudoelements*/
 /*balloons*/
