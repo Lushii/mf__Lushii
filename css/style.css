@@ -84,13 +84,13 @@ content"";
 
 .title {
 color: #444444;
-font-size: 24px;
+font-size: 26px;
 margin-bottom: 76px; 
 }
 
 .second-title {
 color: #444444;
-font-size: 24px;
+font-size: 26px;
 margin-bottom: 74px;
 }
 
@@ -142,6 +142,20 @@ padding: 12px;
 border: 1px solid #fff;
 }
 
+.promo-btn:after{
+content:"";
+width: 22px;
+height: 38px;
+display: block;
+vertical-align: middle;
+background-size: 100%;
+background-image: url(../img/strelka_down.png);
+background-repeat: no-repeat;
+margin-left: 560px;
+margin-bottom: 28px;
+margin-top: 18px;
+}
+
 
 
 /*ADVANTAGES
@@ -149,17 +163,20 @@ border: 1px solid #fff;
 
 .advantages {
 min-height: 210px;
+
 }
 .adv-item__pic{
 margin-top: 79px;
 padding-right: 5px;
-float: left;
+display: inline;
+
 }
 .adv-item__text{
 	color: #444444;
 	font-size: 16px;
 	font-weight: bold;
 margin-top: 92px;
+display: inline;
 }
 
 /*pseudoelements adventages*/
@@ -206,13 +223,19 @@ margin-top: 92px;
 /*BREAFLY*/
 
 .breafly {
-	min-height: 579px;
+	min-height: 400px;
 }
 
+.info-text{
+color: #444;
+font-size: 16px;	
+}
 iframe.video {
 	height: 300px;
 	width: 748px;
 }
+
+
 
 /* GALLERY*/
 .gallery {
@@ -247,13 +270,36 @@ iframe.video {
 */
 .countdown {
 	min-height: 103px;
+	background-color: #f2f2f2;
+}
+            
+
+.countdown-title{
+color: #26668e;
+font-size: 28px;
+font-weight: bold;
+
 }
 
+.block{
+color: #444444;
+font-size: 24px;
+
+display: inline-block;
+		
+}
+.measure{
+	float: left;
+}
 
 /*PRICE
 */
 .price {
 	min-height: 472px;
+}
+.price-text {
+color: #444;
+font-size: 16px;
 }
 
 /*PAYMENT
@@ -261,17 +307,33 @@ iframe.video {
 .payment {
 	min-height: 484px;
 }
+.third-title {
+
+}
+
+.forth-title {
+color: #444;
+
+}
+.faq-text {
+color: #444;
+font-size: 16px;
+width: 454px;
+}
 
 /*pseudoelements payment*/
 .forth-title:before{
-content"";
-	width: ;
-	height: ;
-	vertical-align: middle;
-	margin-right: 10px;
-	display: block;
-	background-size: 100%;
-	background-image: url(../img/otvet.png)	
+
+	content:"";
+width: 40px;
+height: 40px;
+display: block;
+vertical-align: middle;
+background-size: 100%;
+background-image: url(../img/otvet.png);
+background-repeat: no-repeat;
+margin-left: 5px;
+margin-bottom: 2px;
 }
 
 
@@ -291,6 +353,11 @@ background-size: cover;
 /*TEAM*/
 .team {
 	min-height: 459px;
+}
+
+.title,
+.title-team{
+	margin-top: 90px;
 }
 
 /*FEEDBACK*/
