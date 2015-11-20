@@ -65,10 +65,9 @@ content:"";
   width: 61px;
   height: 5px;
   background-color: #3e98d7;
-  display: block;
   position: absolute;
-  margin-top: 10px;
-  left: 48%;
+  margin-top: 45px;
+  left: 47%;
 	
 }
 .second-title:after{
@@ -76,24 +75,12 @@ content:"";
   width: 61px;
   height: 5px;
   background-color: #3e98d7;
-  display: block;
   position: absolute;
-  margin-top: 10px;
-  left: 8%;
+  left: 0;
+  top: 40px;
 	
 }
 
-.second-title_two:after{
-	content:"";
-  width: 61px;
-  height: 5px;
-  background-color: #3e98d7;
-  display: block;
-  position: absolute;
-  margin-top: 10px;
-  margin-left: 4px;
-  left: 51%;
-}
 
 /*titles*/
 
@@ -107,6 +94,7 @@ margin-bottom: 90px;
 color: #444444;
 font-size: 26px;
 margin-bottom: 74px;
+position: relative;
 }
 
 /*HEADER*/
@@ -155,22 +143,19 @@ color: #fff;
 font-size: 14px;
 padding: 12px;
 border: 1px solid #fff;
+position: relative;
 }
 
 .promo-btn:after{
 content:"";
 width: 22px;
 height: 38px;
-display: block;
-vertical-align: middle;
-background-size: 100%;
+position: absolute;
+top: 50px;
+right: 35px;
 background-image: url(../img/strelka_down.png);
 background-repeat: no-repeat;
-margin-left: 560px;
-margin-bottom: 28px;
-margin-top: 18px;
 }
-
 
 
 /*ADVANTAGES
@@ -181,64 +166,48 @@ min-height: 210px;
 vertical-align: middle;
 
 }
-.adv-item__pic{
-margin-top: 79px;
-padding-right: 5px;
-display: inline;
-float: right;
 
-
+.adv-item{
+	position: relative;
+	margin-top: 50px;
 }
+
+
 .adv-item__text{
 	color: #444444;
 	font-size: 16px;
 	font-weight: bold;
-margin-top: 92px;
+margin-top: 5px;
+margin-left: 90px;
 display: inline;
 float: left;
+left: 20px;
 }
 
-/*pseudoelements adventages*/
-/*.adv-item__text1:before{
-	content"";
-	width: ;
-	height: ;
-	vertical-align: middle;
-	margin-right: 10px;
-	background-size: 100%;
+.adv-item:first-child:before,.adv-item:last-child:before,
+.adv-item:nth-child(2):before,.adv-item:nth-child(3):before{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    top: 20px;
+    
+}
+
+.adv-item:first-child:before{
 	background-image: url(../img/like-hand.png);
 }
-.adv-item__text2:before{
-	content"";
-	width: ;
-	height: ;
-	vertical-align: middle;
-	margin-right: 10px;
-	background-size: 100%;
-	background-image: url(../img/glasses.png);
-}
-.adv-item__text3:before{
-	content"";
-	width: ;
-	height: ;
-	vertical-align: middle;
-	margin-right: 10px;
-	background-size: 100%;
-	background-image: url(../img/camera.png);
-}
-.adv-item__text4:before{
-	content"";
-	width: ;
-	height: ;
-	vertical-align: middle;
-	margin-right: 10px;
-	background-size: 100%;
+.adv-item:last-child:before{
 	background-image: url(../img/binoculares.png);
 }
-
-*/
-
-
+.adv-item:nth-child(2):before{
+	background-image: url(../img/glasses.png);
+}
+.adv-item:nth-child(3):before{
+	background-image: url(../img/camera.png);
+}
+img/
 /*BREAFLY*/
 
 .breafly {
@@ -261,6 +230,31 @@ iframe.video {
 .gallery {
 	min-height: 457px;
 }
+
+.slick-next,
+.slick-prev{
+	position: absolute;
+	top: 40%;
+	z-index: 2;
+	border: none;
+	background-color: transparent;
+	color: transparent;
+	width: 40px;
+height: 40px;
+background-repeat: no-repeat;
+background-image: url(../strelka_right.png);
+}
+
+.slick-next{
+	left: -20px;
+	
+}
+.slick-prev{
+	right: -20px;
+	transform: rotate(180deg);
+	
+}
+
 
 /*PROCESS
 */
@@ -302,15 +296,11 @@ margin-bottom: 10px;
 .balloon_image {
 width: 44px;
 height: 65px;
-position: absolute;
 background-image: url(../img/balloon_red.png);
 background-repeat: no-repeat;
-background-position: 48px 10px;
 padding-top: 10px;
 text-align: center;
 color: #fff;
-display: inline-block;
-vertical-align: top;
 }
 
 .balloon1{
@@ -408,6 +398,9 @@ font-size: 16px;
     text-align: right;
 }
 
+input, a{outline: none;}
+
+
 .input-form{
 	color: #444;
 	font-size: 16px;
@@ -455,13 +448,17 @@ margin-bottom: 20px;
 
 
 .forth-title {
-color: #444;
-
+position: relative;
+margin-left: 50px;
+margin-bottom: 20px;
 }
+
 .faq-text {
 color: #444;
 font-size: 16px;
 width: 454px;
+margin-left: 25px;
+margin-bottom: 20px;
 
 }
 
@@ -471,19 +468,21 @@ width: 454px;
 	content:"";
 width: 40px;
 height: 40px;
-display: block;
+display: inline-block;
 vertical-align: middle;
-background-size: 100%;
 background-image: url(../img/otvet.png);
 background-repeat: no-repeat;
-margin-left: 5px;
-margin-bottom: 2px;
+position: absolute;
+left: -50px;
+bottom: -5px;
 }
 
 
 /*STATISTIC*/
 .statistic {
-min-height: 372px;	
+min-height: 372px;
+
+	
 }
 .statistic{
 background-size: cover;
@@ -493,14 +492,65 @@ background-size: cover;
 	overflow: auto;
 	background-image: url(../img/bg_statistic.png)
 }
+
 .statistic-item{
-	display: inline-block;
+text-align: center;	
+display: inline;
+
+}
+
+.round{
+  display: inline-block;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  margin: 20px;
+  position: relative;
+}
+
+.round-number{
+	padding: 95px 95px;
+	color: #fff;
+	font-size: 30px;
+}
+
+
+.round:after{
+	position: absolute;
+	bottom: -90px; 
+	left: 5px;
+
+}
+.round:first-child:after{
+	content:"Полетов в год"; 
+	font-size: 25px; 
+	color: #fff;
+}
+.round:nth-child(2):after{
+	content:"Средняя дальность в метрах"; 
+	color: #fff;
+	font-size: 25px;
+}
+.round:nth-child(3):after{
+	content:"Воздушных шара"; 
+	color: #fff;
+	font-size: 25px; 
+}
+.round:last-child:after{
+	content:"Человек в команде";
+	color: #fff; 
+	font-size: 25px;
+}
+
+
+/*.statistic-item{
+
+	/*display: inline-block;
 	vertical-align: top;
 	width: 230px;
-	text-align: center;
+	text-align: center;*/
 
 	
-}
+/*}
 .statistic-item_number{
 	color: #fff;
 	display: block;
@@ -520,7 +570,7 @@ background-size: cover;
 }
 .statistic-item_title{
 color: #fff;
-}
+}*/
 
 
 /*TEAM*/
@@ -577,6 +627,7 @@ margin-bottom: 24px;
 min-height: 400px;
 }
 .contacts{
+	position: relative;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -589,7 +640,11 @@ min-height: 400px;
 	font-size: 19px;
 	margin-top: 50px;
 }
-
+.contacts-img{
+	position: absolute;
+top: 65px;
+left: 49%;
+}
 .adress-title:before {
 content:"";
 width: 63px;
@@ -598,20 +653,6 @@ display: block;
 vertical-align: middle;
 background-size: 100%;
 background-image: url(../img/square_blue.png);
-background-repeat: no-repeat;
-margin-left: 560px;
-margin-bottom: 28px;
-
-}
-
-.adress-title:before{
-content:"";
-width: 39px;
-height: 37px;
-display: block;
-vertical-align: middle;
-background-size: 100%;
-background-image: url(../img/airplane.png);
 background-repeat: no-repeat;
 margin-left: 560px;
 margin-bottom: 28px;
@@ -636,7 +677,9 @@ margin-top: 67px;
 	color: #2c2c2c;
 	font-size: 16px;
 	font-weight: bold;
-margin-top: 20px;
+margin-top: 35px;
+margin-left: 40px;
+position: relative;
 }
 
 
@@ -645,10 +688,11 @@ margin-top: 20px;
 	font-size: 16px;
 	font-weight: bold;
 	margin-bottom: 20px;
+	margin-left: 40px;
 }
 
 .contact-text1:before{
-	content:"";
+	/*content:"";
 width: 35px;
 height: 52px;
 display: block;
@@ -657,15 +701,28 @@ background-size: 100%;
 background-image: url(../img/adress_mark.png);
 background-repeat: no-repeat;
 float: left;
-margin-right: 18px;
-margin-bottom: 60px;
 
+margin-right: 18px;
+margin-bottom: 80px;*/
+
+content:"";
+width: 35px;
+height: 52px;
+display: inline-block;
+vertical-align: middle;
+background-image: url(../img/adress_mark.png);
+background-repeat: no-repeat;
+position: absolute;
+left: -40px;
+bottom: 2px;
+}
 }
 
 
 .number {
 
 font-size: 20px;
+margin-left: 40px;
 }
 
 .e-mail {
