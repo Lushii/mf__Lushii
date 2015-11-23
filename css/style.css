@@ -601,8 +601,6 @@ left: 52%;
 	
 }
 
-
-
 .adv-item:hover{
 
 	background-color: #474747;
@@ -663,14 +661,15 @@ margin-bottom: 24px;
 
 /*CONTACTS*/
 .contacts{
-min-height: 400px;
+min-height: 449px;
 }
+
 .contacts{
 	position: relative;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	min-height: 645px;
+	min-height: 449px;
 	overflow: auto;
 	background-image: url(../img/bg_contacts.png)
 }
