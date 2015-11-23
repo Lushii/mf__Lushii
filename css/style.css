@@ -21,7 +21,8 @@ ul li{display: inline-block;
 	margin-right: auto;
 	padding-left: 30px;
 	padding-right: 30px;
-border: solid 2px lightgreen;}
+border: solid 2px lightgreen;
+}
 
 .col1 { width: 8.33%; } 
 .col2 { width: 16.66%; } 
@@ -87,7 +88,8 @@ content:"";
 .title {
 color: #444444;
 font-size: 26px;
-margin-bottom: 90px; 
+margin-bottom: 90px;
+position: relative; 
 }
 
 .second-title {
@@ -161,14 +163,14 @@ background-repeat: no-repeat;
 /*ADVANTAGES
 */
 
-.advantages {
+.advantages{
 min-height: 210px;
 vertical-align: middle;
+position: relative;
 
 }
 
 .adv-item{
-	position: relative;
 	margin-top: 50px;
 }
 
@@ -182,7 +184,9 @@ margin-left: 90px;
 display: inline;
 float: left;
 left: 20px;
+
 }
+
 
 .adv-item:first-child:before,.adv-item:last-child:before,
 .adv-item:nth-child(2):before,.adv-item:nth-child(3):before{
@@ -197,17 +201,28 @@ left: 20px;
 
 .adv-item:first-child:before{
 	background-image: url(../img/like-hand.png);
+	top: 25%;
 }
 .adv-item:last-child:before{
 	background-image: url(../img/binoculares.png);
+    top: 36%;
+    left: 72%;
 }
 .adv-item:nth-child(2):before{
 	background-image: url(../img/glasses.png);
+	left: 28%; 
+	top: 36%;
+
 }
 .adv-item:nth-child(3):before{
 	background-image: url(../img/camera.png);
+	top: 30%;
+	left: 51%;
 }
-img/
+
+
+
+
 /*BREAFLY*/
 
 .breafly {
@@ -235,7 +250,7 @@ iframe.video {
 .slick-prev{
 	position: absolute;
 	top: 40%;
-	z-index: 2;
+	
 	border: none;
 	background-color: transparent;
 	color: transparent;
@@ -266,7 +281,7 @@ background-image: url(../strelka_right.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	min-height: 645px;
-	overflow: auto;
+	overflow: hidden;
 	background-image: url(../img/bg_mountains.png)
 
 }
@@ -479,11 +494,12 @@ bottom: -5px;
 
 
 /*STATISTIC*/
+
 .statistic {
 min-height: 372px;
 
-	
 }
+
 .statistic{
 background-size: cover;
 	background-repeat: no-repeat;
@@ -496,7 +512,7 @@ background-size: cover;
 .statistic-item{
 text-align: center;	
 display: inline;
-
+margin-left: 140px;
 }
 
 .round{
@@ -504,18 +520,37 @@ display: inline;
   border: 6px solid #fff;
   border-radius: 50%;
   margin: 20px;
-  position: relative;
+  position: absolute;
+  height: 187px;
+  width: 187px;
+
 }
 
 .round-number{
-	padding: 95px 95px;
 	color: #fff;
-	font-size: 30px;
+	font-size: 50px;
+	margin-top: 60px;
+}
+
+.round:first-child{
+	left: 12%;
+}
+
+.round:last-child{
+	left: 72%;
+}
+
+.round:nth-child(2){
+	left: 32%;
+}
+
+.round:nth-child(3){
+left: 52%;
 }
 
 
 .round:after{
-	position: absolute;
+	position: relative;
 	bottom: -90px; 
 	left: 5px;
 
