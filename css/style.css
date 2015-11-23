@@ -21,8 +21,7 @@ ul li{display: inline-block;
 	margin-right: auto;
 	padding-left: 30px;
 	padding-right: 30px;
-border: solid 2px lightgreen;
-}
+ }
 
 .col1 { width: 8.33%; } 
 .col2 { width: 16.66%; } 
@@ -399,7 +398,7 @@ margin-left: 5px;
 /*PRICE
 */
 .price {
-	min-height: 472px;
+	min-height: 400px;
 }
 .price-text {
 color: #444;
@@ -433,7 +432,7 @@ margin-left: 10%;
 
 .form-price{
 color: #f97e7e;
-font-size: 28px;
+font-size: 40px;
 font-weight: bold;
 margin-left: 15px;
 }
@@ -585,7 +584,7 @@ left: 52%;
 
 /*TEAM*/
 .team {
-	min-height: 459px;
+	min-height: 420px;
 	
 
 }
@@ -630,12 +629,12 @@ font-size: 18px;
 
 /*FEEDBACK*/
 .feedback {
-	min-height: 582px;
+	min-height: 400px;
 	position: relative;
 }
 .feedback-item{
 	text-align: center;
-
+mt
 }
 
 .feedback-item_title{
@@ -683,6 +682,7 @@ min-height: 449px;
 top: 65px;
 left: 49%;
 }
+
 .adress-title:before {
 content:"";
 width: 63px;
@@ -730,18 +730,6 @@ position: relative;
 }
 
 .contact-text1:before{
-	/*content:"";
-width: 35px;
-height: 52px;
-display: block;
-vertical-align: middle;
-background-size: 100%;
-background-image: url(../img/adress_mark.png);
-background-repeat: no-repeat;
-float: left;
-
-margin-right: 18px;
-margin-bottom: 80px;*/
 
 content:"";
 width: 35px;
@@ -754,8 +742,6 @@ position: absolute;
 left: -40px;
 bottom: 2px;
 }
-}
-
 
 .number {
 
@@ -784,6 +770,36 @@ float: left;
 margin-right: 18px;
 margin-top: 5px;
 }
+
+.sprite {
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: 30px;
+    width: 111px;
+    height: 22px;
+}
+
+.sprite-fb {
+    width: 22px;
+    height: 23px;
+    background-position: -11px -11px;
+
+}
+
+.sprite-instag-icone {
+    width: 22px;
+    height: 23px;
+    background-position: -56px -11px;    
+}
+
+.sprite-vk-icone {
+    width: 22px;
+    height: 23px;
+    background-position: -99px -11px;
+
+}
+
 
 /*FOOTER*/
 
