@@ -188,8 +188,10 @@ left: 20px;
 }
 
 
-.adv-item:first-child:before,.adv-item:last-child:before,
-.adv-item:nth-child(2):before,.adv-item:nth-child(3):before{
+.adv-item:first-child:before,
+.adv-item:last-child:before,
+.adv-item:nth-child(2):before,
+.adv-item:nth-child(3):before{
     content: "";
     position: absolute;
     width: 80px;
@@ -505,7 +507,7 @@ background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	min-height: 372px;
-	overflow: auto;
+	overflow: hidden;
 	background-image: url(../img/bg_statistic.png)
 }
 
@@ -523,6 +525,7 @@ margin-left: 140px;
   position: absolute;
   height: 187px;
   width: 187px;
+  margin-top: 51px;
 
 }
 
@@ -577,70 +580,95 @@ left: 52%;
 }
 
 
-/*.statistic-item{
 
-	/*display: inline-block;
-	vertical-align: top;
-	width: 230px;
-	text-align: center;*/
-
-	
-/*}
-.statistic-item_number{
-	color: #fff;
-	display: block;
-	width: 160px;
-	height: 160px;
-	border-radius: 50%;
-	border: 6px solid #fff;
-	font-size: 42px;
-	text-align: center;
-	line-height: 160;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
-	margin-bottom: 20px;
-	
-}
-.statistic-item_title{
-color: #fff;
-}*/
 
 
 /*TEAM*/
 .team {
 	min-height: 459px;
+	position: relative;
+
 }
 
 .title,
 .title-team{
 	margin-top: 90px;
 }
+
+.team-item{
+	margin-top: 30px;
+	position: relative;
+
+}
+
 .team-item_title{
 color: #444;
 font-size: 19px;
-margin-top: 10px;
+margin-top: 160px;
 margin-bottom: 10px;
 }
 
 .team-item_text{
 color: #444;
 font-size: 18px;
-margin-top: 10px;
-margin-bottom: 10px;
 }
+
+.team-item:first-child:before,
+.team-item:last-child:before,
+.team-item:nth-child(2):before,
+.team-item:nth-child(3):before{
+content: "";
+    width: 162px;
+    height: 162px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 20px;
+    
+}
+
+
+.team-item:first-child:before{
+    background-image: url(../img/team_marieva.png);
+	left: 80%;
+	top: 25%;
+}
+.team-item:last-child:before{
+	background-image: url(../img/team_nadezdova.png);
+	left: 25%;
+	top: 25%;
+}
+.team-item:nth-child(2):before{
+	background-image: url(../img/team_irinova.png);
+	
+}
+.team-item:nth-child(3):before{
+	background-image: url(../img/team_alenova.png);
+	
+}
+
+
 
 /*FEEDBACK*/
 .feedback {
 	min-height: 582px;
+	position: relative;
 }
 .feedback-item{
 	text-align: center;
-	
+
 }
-.feedback-item_img{
+
+.feedback-item_title:first-child:before{
+content: "";
+    width: 162px;
+    height: 162px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(../img/reviews_alekseeva.png);
+    
+    top: 20px;
 }
+
 .feedback-item_title{
 	color: #444;
 font-size: 19px;
@@ -656,6 +684,11 @@ margin-bottom: 24px;
 	text-align: center;
 	
 }
+
+.feedback-item_title {
+
+}
+
 
 /*CONTACTS*/
 .contacts{
