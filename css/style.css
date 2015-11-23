@@ -40,7 +40,7 @@ border: solid 2px lightgreen;
 .row{
   margin-left: -15px;
   margin-right: -15px;
-  overflow: hidden;
+ 
 }
 
 div[class*="col"] {
@@ -88,7 +88,7 @@ content:"";
 .title {
 color: #444444;
 font-size: 26px;
-margin-bottom: 90px;
+margin-bottom: 50px;
 position: relative; 
 }
 
@@ -252,22 +252,22 @@ iframe.video {
 .slick-prev{
 	position: absolute;
 	top: 40%;
-	
 	border: none;
 	background-color: transparent;
 	color: transparent;
 	width: 40px;
 height: 40px;
 background-repeat: no-repeat;
-background-image: url(../strelka_right.png);
+background-image: url(../img/strelka_left.png);
+margin-left: -20px;
 }
 
 .slick-next{
-	left: -20px;
+	left: -30px;
 	
 }
 .slick-prev{
-	right: -20px;
+	right: -50px;
 	transform: rotate(180deg);
 	
 }
@@ -453,7 +453,7 @@ margin-left: 15px;
 /*PAYMENT
 */
 .payment {
-	min-height: 484px;
+	min-height: 680px;
 }
 .third-title {
 color: #444;
@@ -507,7 +507,7 @@ background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	min-height: 372px;
-	overflow: hidden;
+	
 	background-image: url(../img/bg_statistic.png)
 }
 
@@ -586,25 +586,38 @@ left: 52%;
 /*TEAM*/
 .team {
 	min-height: 459px;
-	position: relative;
+	
 
 }
 
 .title,
 .title-team{
-	margin-top: 90px;
+	margin-top: 85px;
 }
 
 .team-item{
 	margin-top: 30px;
-	position: relative;
+	border: 1px solid #fff;
+	
+}
+
+
+
+.adv-item:hover{
+
+	background-color: #474747;
+background-image: url(images/);
 
 }
+
+/*.adv-img:hover{
+
+}*/
 
 .team-item_title{
 color: #444;
 font-size: 19px;
-margin-top: 160px;
+margin-top: 32px;
 margin-bottom: 10px;
 }
 
@@ -613,38 +626,7 @@ color: #444;
 font-size: 18px;
 }
 
-.team-item:first-child:before,
-.team-item:last-child:before,
-.team-item:nth-child(2):before,
-.team-item:nth-child(3):before{
-content: "";
-    width: 162px;
-    height: 162px;
-    position: absolute;
-    background-repeat: no-repeat;
-    top: 20px;
-    
-}
 
-
-.team-item:first-child:before{
-    background-image: url(../img/team_marieva.png);
-	left: 80%;
-	top: 25%;
-}
-.team-item:last-child:before{
-	background-image: url(../img/team_nadezdova.png);
-	left: 25%;
-	top: 25%;
-}
-.team-item:nth-child(2):before{
-	background-image: url(../img/team_irinova.png);
-	
-}
-.team-item:nth-child(3):before{
-	background-image: url(../img/team_alenova.png);
-	
-}
 
 
 
@@ -656,17 +638,6 @@ content: "";
 .feedback-item{
 	text-align: center;
 
-}
-
-.feedback-item_title:first-child:before{
-content: "";
-    width: 162px;
-    height: 162px;
-    position: absolute;
-    background-repeat: no-repeat;
-    background-image: url(../img/reviews_alekseeva.png);
-    
-    top: 20px;
 }
 
 .feedback-item_title{
