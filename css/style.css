@@ -252,25 +252,36 @@ iframe.video {
 	position: absolute;
 	top: 40%;
 	border: none;
+	outline: none;
 	background-color: transparent;
 	color: transparent;
 	width: 40px;
 height: 40px;
 background-repeat: no-repeat;
-background-image: url(../img/strelka_left.png);
 margin-left: -20px;
 }
 
 .slick-next{
+	background-image: url(../img/strelka_left-dark.png);
 	left: -30px;
 	
 }
 .slick-prev{
+	background-image: url(../img/strelka_right.png);
 	right: -50px;
-	transform: rotate(180deg);
+	
 	
 }
+.slick-prev:hover{
+background-image: url(../img/strelka_right-hover.png);
+left: 30px;
 
+}
+
+.slick-next:hover{
+background-image: url(../img/strelka_left-hover.png);
+right: 50px;
+}
 
 /*PROCESS
 */
@@ -497,7 +508,7 @@ bottom: -5px;
 /*STATISTIC*/
 
 .statistic {
-min-height: 372px;
+min-height: 374px;
 
 }
 
@@ -513,20 +524,22 @@ background-size: cover;
 .statistic-item{
 text-align: center;	
 display: inline;
-margin-left: 140px;
+text-align: center;
+
 }
 
 .round{
-  display: inline-block;
+  display: block;
+  float: left;
   border: 6px solid #fff;
   border-radius: 50%;
-  margin: 20px;
-  position: absolute;
   height: 187px;
   width: 187px;
+  margin: 20px;
   margin-top: 51px;
-
-}
+ box-sizing: border-box;
+  
+  }
 
 .round-number{
 	color: #fff;
@@ -778,6 +791,7 @@ margin-top: 5px;
     margin-top: 30px;
     width: 111px;
     height: 22px;
+    padding-left: 10px;
 }
 
 .sprite-fb {
@@ -790,7 +804,7 @@ margin-top: 5px;
 .sprite-instag-icone {
     width: 22px;
     height: 23px;
-    background-position: -56px -11px;    
+    background-position: -45px -11px;    
 }
 
 .sprite-vk-icone {
