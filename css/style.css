@@ -524,8 +524,7 @@ background-size: cover;
 .statistic-item{
 text-align: center;	
 display: inline;
-text-align: center;
-
+margin-left: 240px;
 }
 
 .round{
@@ -537,7 +536,8 @@ text-align: center;
   width: 187px;
   margin: 20px;
   margin-top: 51px;
- box-sizing: border-box;
+  margin-left: 40px;
+  box-sizing: border-box;
   
   }
 
