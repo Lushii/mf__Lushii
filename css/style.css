@@ -425,8 +425,13 @@ font-size: 16px;
     text-align: right;
 }
 
-input, a{outline: none;}
+input, a{
+	outline: none;
+}
 
+form{
+	margin-bottom: 20px;
+}
 
 .input-form{
 	color: #444;
@@ -449,12 +454,13 @@ margin-left: 15px;
 }
 
 .form-btn{
-	padding: 10px 15px;
+	padding: 12px 45px;
 	background-color: #46b0dc;
+	font-size: 18px;
 	color: #fff;
 	border-radius: 2px;
 	margin-top: 10px;
-	margin-right: 5px;
+	margin-right: 25px;
 	margin-left: 150px;
 
 
@@ -484,7 +490,7 @@ margin-bottom: 20px;
 color: #444;
 font-size: 16px;
 width: 454px;
-margin-left: 25px;
+margin-left: 48px;
 margin-bottom: 20px;
 
 }
@@ -501,7 +507,7 @@ background-image: url(../img/otvet.png);
 background-repeat: no-repeat;
 position: absolute;
 left: -50px;
-bottom: -5px;
+bottom: -12px;
 }
 
 
