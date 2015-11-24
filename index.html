@@ -79,7 +79,7 @@
 </section>
 
 <!-- BREAFLY -->
-<section class="breafly">
+<section id="breafly" class="breafly">
   <div class="container">
     <div class="row">
 
@@ -100,7 +100,7 @@
 </section>
 
 <!-- GALLERY -->
-<section class="gallery">
+<section id="gallery" class="gallery">
   <div class="container">
     <div class="row">
     <h2 class="title center">Галерея</h2>
@@ -117,7 +117,7 @@
 </section>
 
 <!-- PROCESS-->
-<section class="process">
+<section id="process" class="process">
   <div class="container">
     <div class="row">
 
@@ -190,7 +190,7 @@
 </section>
 
 <!-- PRICE -->
-<section class="price">
+<section id="price" class="price">
   <div class="container">
     <div class="row">
 
@@ -292,7 +292,7 @@
 
 <!-- TEAM -->
 
-<section class="team center">
+<section id="team" class="team center">
   <div class="container">
     <div class="row">
       <h2 class="title title-team center">Команда инструкторов</h2>
@@ -374,7 +374,7 @@ onmouseover='this.src="../img/Rectangle 12.png";'>
 
 <!-- CONTACTS -->
 
-<section class="contacts">
+<section id="contacts" class="contacts">
   <div class="container">
     <div class="row">
    <p class="contacts-img center"><img src="img/airplane.png" alt=""></p> 
@@ -449,6 +449,23 @@ slidesToScroll: 1,
 arrows: true,
 });
 </script>
+<script>
+  $(function() {
+$('a[href*=#]:not([href=#])').click(function() {
+if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+var target = $(this.hash);
+target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+if (target.length) {
+$('html,body').animate({
+scrollTop: target.offset().top
+}, 1000);
+return false;
+}
+}
+});
+});
+</script>
+
 <script src="js/script.js"></script>
  </body>
 </html>
