@@ -102,7 +102,7 @@ position: relative;
 .nav {
 	min-height: 67px;
 	background-color: #2c2c2c;
-	 background-size: 100%; 
+	 background-size: 100%;
 }
 .logo-title{
 color: #fff;
@@ -258,7 +258,7 @@ iframe.video {
 	width: 40px;
 height: 40px;
 background-repeat: no-repeat;
-margin-left: 10px;
+margin-left: 5px;
 }
 
 .slick-next{
@@ -343,7 +343,7 @@ left: 288px;
 
 .balloon3{
 top: 50px;
-left: 50%;
+left: 48%;
 }
 
 .balloon4{
@@ -383,7 +383,7 @@ color: #26668e;
 font-size: 24px;
 font-weight: bold;
 display: inline-block;
-margin: 10px;
+margin: 20px;
 
 
 }
