@@ -258,7 +258,7 @@ iframe.video {
 	width: 40px;
 height: 40px;
 background-repeat: no-repeat;
-margin-left: -20px;
+margin-left: 10px;
 }
 
 .slick-next{
@@ -524,7 +524,7 @@ background-size: cover;
 .statistic-item{
 text-align: center;	
 display: inline;
-margin-left: 240px;
+margin-left: 140px;
 }
 
 .round{
