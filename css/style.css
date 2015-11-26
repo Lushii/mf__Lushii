@@ -376,7 +376,7 @@ right: 30px;
 color: #26668e;
 font-size: 28px;
 font-weight: bold;
-
+padding-top: 30px;
 }
 
 .block{
@@ -384,7 +384,8 @@ color: #26668e;
 font-size: 24px;
 font-weight: bold;
 display: inline-block;
-margin: 20px;
+margin: 28px;
+padding-top: 10px;
 
 
 }
