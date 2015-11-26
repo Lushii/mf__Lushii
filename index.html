@@ -203,13 +203,39 @@
 <!-- ФОРМА сделать форму lable>input == кнопка-ссылка = span и a -->
       <div class="col6">
         <div class="form"> 
-    <form>
-      <p class="form-text">Маршрут полета: <input type="text" placeholder="Сестрорецк - Парнас" class="input-form"></p>
-      <p class="form-text">Количество человек: <input type="text" placeholder="2" class="input-form"></p>
-      <p class="form-text">Имя и фамилия: <input type="text" placeholder="Поля Фокус" class="input-form"></p>
-      <p class="form-text">Телефон: <input type="text" placeholder="89215674566" class="input-form"></p>
-      <p class="form-text">Стоимость: <span class="form-price">9000 Р</span><a href="#" class="form-btn">Полетели!</a></p>
-    </form>
+
+    <form action="#">
+<div>
+<label class="form-text" for="select-choice">Маршрут полета:</label>
+<select name="select-choice" id="select-choice" class="input-form">
+<option value="Choice 1">Сестрорецк-Парнас</option>
+<option value="Choice 2">Парголово-Шувалово</option>
+<option value="Choice 3">Шувалово-Сертолово</option>
+</select>
+</div>
+<div>
+ <label class="form-text" for="select-choice">Количество человек:</label>
+ <select name="select-choice" id="select-choice" class="input-form">
+<option value="Choice 1">3</option>
+<option value="Choice 2">2</option>
+<option value="Choice 3">1</option>
+</select>
+</div>
+ 
+<div>
+ <label class="form-text" for="name">Имя и фамилия:</label> 
+<input type="text" name="name" id="name" placeholder="Поля Фокус" class="input-form" />
+</div>
+
+<div>
+<label class="form-text" for="name">Телефон:</label>
+<input type="text" name="name" id="name" placeholder="8921_(___)_(___)_(___)" class="input-form" />
+</div>
+<div>
+<label for="submit"><span class="form-text">Стоимость:</span><span class="form-cost"> 9000 P</span></label>
+<input type="" value="Полетели!" class="input-button" />
+</div> 
+</form>
   </div>
       </div>
 
