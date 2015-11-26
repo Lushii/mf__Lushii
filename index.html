@@ -190,57 +190,91 @@
 </section>
 
 <!-- PRICE -->
+
 <section id="price" class="price">
   <div class="container">
     <div class="row">
 
-      <div class="col6">
+      <div class="col5">
         <h2 class="second-title">Рассчитать стоимость</h2>
 
         <p class="price-text">Итак в назначенное время вы приехали на место полета. Команда уже готовит шар к полету - определяется направление ветра, запускаются горелки.<br/> Оболочка начинает заполняться теплым воздухом, и аэростат делает первый "вздох".<br/>
         Выбирайте, куда мы полетим сегодня!</p>
       </div>
-<!-- ФОРМА сделать форму lable>input == кнопка-ссылка = span и a -->
-      <div class="col6">
-        <div class="form"> 
-
-    <form action="#">
-<div>
-<label class="form-text" for="select-choice">Маршрут полета:</label>
-<select name="select-choice" id="select-choice" class="input-form">
-<option value="Choice 1">Сестрорецк-Парнас</option>
-<option value="Choice 2">Парголово-Шувалово</option>
-<option value="Choice 3">Шувалово-Сертолово</option>
-</select>
-</div>
-<div>
- <label class="form-text" for="select-choice">Количество человек:</label>
- <select name="select-choice" id="select-choice" class="input-form">
-<option value="Choice 1">3</option>
-<option value="Choice 2">2</option>
-<option value="Choice 3">1</option>
-</select>
-</div>
- 
-<div>
- <label class="form-text" for="name">Имя и фамилия:</label> 
-<input type="text" name="name" id="name" placeholder="Поля Фокус" class="input-form" />
-</div>
-
-<div>
-<label class="form-text" for="name">Телефон:</label>
-<input type="text" name="name" id="name" placeholder="8921_(___)_(___)_(___)" class="input-form" />
-</div>
-<div>
-<label for="submit"><span class="form-text">Стоимость:</span><span class="form-cost"> 9000 P</span></label>
-<input type="" value="Полетели!" class="input-button" />
-</div> 
-</form>
-  </div>
       </div>
+<!-- ФОРМА сделать форму lable>input == кнопка-ссылка = span и a -->
 
-    </div>
-  </div>
+      <div class="column6 offset1 price-form">
+
+          <form action="#">
+            <div class="row price-form-item">
+              <div class="price-form-item-route">
+                
+                <div class="column4">
+                  
+                <label for="t1" class="form-text">Маршрут полета:</label>
+                </div>
+                <div class="column8">
+                  <select name="route" id="t1" size="1" class="input-form">
+                    <option value="m1">Сестрорецк-Парнас</option>
+                    <option value="m2">Москва-Москва</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="row price-form-item">
+              <div class="price-form-item-people">
+                
+                <div class="column4">
+                  <label for="t2" class="form-text">Количество человек:</label>
+                </div>
+                
+                <div class="column8">
+                  <select name="route" id="t2" size="1" class="input-form">
+                    <option value="m1">1</option>
+                    <option value="m2">2</option>
+                  </select>
+                </div>
+              </div>
+
+
+            <div class="row price-form-item">
+              <div class="price-form-item-name">
+                <div class="column4">
+                  <label for="t4" class="form-text">Имя и фамилия:</label>
+                </div>
+                <div class="column8">
+                  <input type="text" id="t4" placeholder="Ваше имя" class="input-form">
+                </div>
+              </div>
+            </div>
+
+            <div class="row price-form-item">
+              <div class="price-form-item-number">
+                <div class="column4">
+                  <label for="t5" class="form-text">Номер телефона:</label>
+                </div>
+                <div class="column8">
+                  <input type="text" id="t5" placeholder="8 (904) 349 99 81" class="input-form">
+                </div>
+              </div>
+            </div>
+
+            <div class="row price-form-item">
+              <div class="price-form-item-all">
+                <div class="column6">
+                  <span class="price-form-item-all-text">Стоимость:</span>
+                  <span class="price-form-item-all-number">9000 Р</span>
+                </div>
+                <div class="column6 right">
+                  <button class="input-button">Полетели!</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
 </section>
 
 <!-- PAYMENT -->
