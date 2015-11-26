@@ -100,10 +100,10 @@ position: relative;
 
 /*HEADER*/
 .nav {
-	min-height: 67px;
+	min-height: 60px;
 	background-color: #2c2c2c;
 	 background-size: 100%;
-	 padding-top: 20px;
+	 padding-top: 35px;
 }
 .logo-title{
 color: #fff;
