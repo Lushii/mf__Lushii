@@ -676,8 +676,6 @@ font-size: 18px;
 
 
 
-
-
 /*FEEDBACK*/
 .feedback {
 	min-height: 400px;
@@ -751,7 +749,7 @@ margin-top: 16px;
 
 .contacts-title {
 font-size: 18px;
-padding-right: 80px;
+margin-left: 40px;
 margin-top: 67px;
 
 }
@@ -760,7 +758,7 @@ margin-top: 67px;
 	color: #2c2c2c;
 	font-size: 16px;
 	font-weight: bold;
-margin-top: 35px;
+margin-top: 15px;
 margin-left: 40px;
 position: relative;
 }
@@ -784,7 +782,8 @@ vertical-align: middle;
 background-image: url(../img/adress_mark.png);
 background-repeat: no-repeat;
 position: absolute;
-left: -60px;
+left: -50px;
+top: -35px;
 }
 
 .number {
