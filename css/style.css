@@ -163,6 +163,31 @@ background-repeat: no-repeat;
 /*ADVANTAGES
 */
 
+.adv-item {
+    position: relative; ..очень важный пункт
+}
+.adv-item:first-child:before {
+    background-image: url(../img/like-hand.png);
+    top: -40px;
+    left: 30px;
+}
+.adv-item:nth-child(2):before {
+    background-image: url(../img/glasses.png);
+    top: 10px;
+    left: 15px;
+}
+.adv-item:nth-child(3):before {
+    background-image: url(../img/camera.png);
+    top: -5px;
+    left: 20px;
+}
+.adv-item:last-child:before {
+    background-image: url(../img/binoculares.png);
+    top: 7px;
+    left: 15px;
+}
+
+
 .advantages{
 min-height: 210px;
 vertical-align: middle;
@@ -201,7 +226,7 @@ left: 20px;
     
 }
 
-.adv-item:first-child:before{
+/*.adv-item:first-child:before{
 	background-image: url(../img/like-hand.png);
 	top: 25%;
 }
@@ -223,7 +248,7 @@ left: 20px;
 }
 
 
-
+*/
 
 /*BREAFLY*/
 
@@ -234,6 +259,10 @@ left: 20px;
 .info-text{
 color: #444;
 font-size: 16px;	
+}
+
+iframe{
+	border: 0;
 }
 
 .video {
@@ -379,13 +408,17 @@ font-weight: bold;
 padding-top: 30px;
 }
 
+.timer{
+margin-left: 200px;	
+}
+
 .block{
 color: #26668e;
 font-size: 24px;
 font-weight: bold;
 display: inline-block;
-margin: 28px;
-padding-top: 10px;
+margin-left: 20px;
+padding-top: 35px;
 
 
 }
