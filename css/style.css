@@ -293,24 +293,28 @@ margin-left: 5px;
 
 .slick-next{
 	background-image: url(../img/strelka_left-dark.png);
-	left: -30px;
+	left: -40px;
+	top: 130px;
 	
 }
 .slick-prev{
 	background-image: url(../img/strelka_right.png);
-	right: -50px;
+	right: -45px;
+	top: 130px;
 	
 	
-}
-.slick-prev:hover{
-background-image: url(../img/strelka_right-hover.png);
-left: 30px;
-
 }
 
 .slick-next:hover{
 background-image: url(../img/strelka_left-hover.png);
-right: 50px;
+left: -40px;
+top: 130px;
+}
+
+.slick-prev:hover{
+background-image: url(../img/strelka_right-hover.png);
+right: -45px;
+top: 130px;
 }
 
 /*PROCESS
